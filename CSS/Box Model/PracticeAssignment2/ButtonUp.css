@@ -1,0 +1,25 @@
+#search {
+    border-color: turquoise;
+    color: turquoise;
+    background-color: whitesmoke;
+    margin-top: 60px;
+    border-radius: 50px;
+}
+
+#plus {
+    border-color: turquoise;
+    border-radius: 50%;
+    color: white;
+    background-color: turquoise;
+}
+
+#account {
+    border-color: black;
+    background-color: blue;
+    color: white;
+} 
+div {
+    margin: 20px;
+    margin-left: 60px;
+    
+}
