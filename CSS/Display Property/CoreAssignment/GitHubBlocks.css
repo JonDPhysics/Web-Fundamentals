@@ -2,7 +2,6 @@
     background-color: rebeccapurple;
     width: 900px;
     padding: 25px;
-    justify-content: space-around;
 }
 
 #top {
@@ -27,10 +26,6 @@
 
 .octocat {
     height: 170px;
-}
-
-.link {
-    color: white;
 }
 
 h1 {
