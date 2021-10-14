@@ -1,0 +1,50 @@
+#container {
+    background-color: rebeccapurple;
+    height: 900px;
+    padding: 25px;
+    justify-content: space-around;
+}
+
+#top {
+    background-color: white;
+}
+
+#middle {
+    background-color: forestgreen ;
+}
+
+#bottom {
+    background-color: black;
+}
+
+.row {
+    padding: 20px;
+    height: 190px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.octocat {
+    height: 170px;
+}
+
+.link {
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+}
+
+h5 a {
+    color: white;
+}
