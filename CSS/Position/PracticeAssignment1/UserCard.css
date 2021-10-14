@@ -1,0 +1,59 @@
+#container {
+    height: 900px;
+    background-color: black;
+    padding: 50px;
+}
+#card {
+    width: 500px;
+    height: 240px;
+    border: 3px solid grey;
+    display: list-item;
+    margin: 60px;
+    background-color: white;
+}
+
+.bar {
+    height: 60px;
+    background-color: teal;
+}
+
+.icon img {
+    height: 70px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+h1 {
+    margin: 30px 40px 5px;
+    font-weight: lighter;
+}
+h4 {
+    font-weight: lighter;
+    margin: 0px 10px 10px 40px;
+    display: inline;
+    align-self: baseline;
+}
+h4 img {
+    height: 15px;
+    margin: 0px 5px;
+    display: inline;
+}
+
+p {
+    margin: 5px 40px;
+}
+h5 img {
+    height: 15px;
+    margin: 5px 10px 0px 40px;
+    display: inline;
+}
+
+h5 {
+    font-family: cursive;
+    font-weight: lighter;
+    display: inline;
+    margin: 0px 5px;
+    align-self: baseline;
+}
+
