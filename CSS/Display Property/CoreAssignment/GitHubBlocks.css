@@ -1,6 +1,6 @@
 #container {
     background-color: rebeccapurple;
-    height: 900px;
+    width: 900px;
     padding: 25px;
     justify-content: space-around;
 }
