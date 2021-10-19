@@ -1,0 +1,121 @@
+/*Container*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1200px;
+    height: 900px;
+    border: 1px solid grey;
+    
+}
+/*Container*/
+/*Navigation Bar*/
+.NavBar{
+    width: 691px;
+    height: 30px;
+    background-color: lightgrey;
+    margin: 0px 175px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBar>h1{
+    font-family: cursive;
+}
+
+.NavBar>input{
+    width: 275px;
+    height: 25px;
+    border: 2px solid black;
+}
+
+.NavBar>button{
+    width: 75px;
+    height: 25px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+    box-shadow: 3px 3px  black;
+    color: white;
+}
+/*Navigation Bar*/
+
+/*Column*/
+.column{
+    width: 900px;
+    height: 830px;
+    display: flex;
+}
+/*Left Column*/
+.left{
+    flex: 2;
+}
+
+.Def{
+    width: 423px;
+    height: 170px;
+    border: 2px solid black;
+    margin: 25px 15px 0px 175px;
+    display: flex;
+
+}
+
+.leftLeft{
+    flex: 1;
+}
+
+.text{
+    font-family: cursive;
+    margin: 1.5px 0px;
+    text-align: center;
+}
+
+.leftLeft>button{
+    width: 90px;
+    height: 30px;
+    margin: 18px 0px 15px 8px;
+    border: 2px solid black;
+    box-shadow: 2px 4px;
+    background-color: gold;
+    font-family: cursive;
+}
+
+.leftRight{
+    flex: 2;
+    padding: 60px 54px;
+}
+
+
+/*Left Column*/
+/*Right Column*/
+.right{
+    flex: 1;
+}
+
+.box{
+    width: 256px;
+    height: 110px;
+    border: 2px solid black;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+.box>h3{
+    margin: 0px 54px;
+    font-family: cursive;
+}
+
+.box>button{
+    width: 180px;
+    height: 35px;
+    border: 2px solid black;
+    box-shadow: 2px 3px black;
+    margin: 22px 37px;
+    background-color: rgb(114, 192, 114);
+    font-weight: bold;
+}
+/*Right Column*/
+/*Column*/

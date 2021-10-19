@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buttonClicker.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class="container">
+        <div class="NavBar">
+            <h1>Dojonary</h1>
+            <input type="search" placeholder="Search">
+            <button onclick="inOut(this)">Login</button>
+        </div>
+        <div class="column">
+            <div class="left">
+                <div class="Def">
+                    <div class="leftLeft">
+                        <h1 class="text">ninja</h1>
+                        <h3 class="text"><em>noun</em></h3>
+                        <h5 class="text">Plural: <em>ninjas</em></h5>
+                        <button onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="leftRight">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="Def">
+                    <div class="leftLeft">
+                        <h1 class="text">ninja</h1>
+                        <h3 class="text">noun</h3>
+                        <h5 class="text">Plural: <em>ninjas</em></h5>
+                        <button>37 likes</button>
+                    </div>
+                    <div class="leftRight">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="box">
+                    <h3>Dojonary is defined by YOU</h3>
+                    <button onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="buttonClicker.js"></script>
+</body>
+</html>
