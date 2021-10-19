@@ -1,19 +1,23 @@
-//function pizzaOven(crust, sause, cheese, toppings){
-    //var pizza = {};
-    //pizza.crust = crust;
-    //pizza.sause = sause;
-    //pizza.cheese = cheese;
-    //pizza.toppings = toppings;
-    //return pizza;
-//}
+function pizzaOven(crust, sause, cheese, toppings){
+    var pizza = {};
+    pizza.crust = crust;
+    pizza.sause = sause;
+    pizza.cheese = cheese;
+    pizza.toppings = toppings;
+    return pizza;
+}
 
-//var order1 = pizzaOven("deep dish", "traditional", ["mozzarella"], ["pepperoni", "sausage"])
+var orderOne = pizzaOven("deep dish", "traditional", ["mozzarella"], ["pepperoni", "sausage"])
+console.log(orderOne)
 
-//var order2 = pizzaOven("hand tossed", "marinara", ["mozzarella", "feta"], ["mushrooms", "olives", "onions"]) 
+var orderTwo = pizzaOven("hand tossed", "marinara", ["mozzarella", "feta"], ["mushrooms", "olives", "onions"]) 
+console.log(orderTwo)
 
-//var order3 = pizzaOven("crunchy thin", "marinara", ["mozzarella"], ["sausage", "jalapeno", "bacon"])
+var orderThree = pizzaOven("crunchy thin", "marinara", ["mozzarella"], ["sausage", "jalapeno", "bacon"])
+console.log(orderThree)
 
-//var order4 = pizzaOven("handmade pan", "garlic parmesan", ["mozzarella", "extra"], ["chicken", "onions" "spinach"])
+var orderFour = pizzaOven("handmade pan", "garlic parmesan", ["mozzarella", "extra"], ["chicken", "onions", "spinach"])
+console.log(orderFour)
 
 var makePizza = {
     crust: ["hand tossed", "handmade pan", "crunchy thin", "brooklyn style", "gluten free", "deep dish"], 
