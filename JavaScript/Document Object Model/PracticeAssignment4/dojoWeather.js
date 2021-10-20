@@ -40,22 +40,22 @@ function check(element){
 
     if(element.value === "°F"){
         unit1.innerText = Math.floor(unit1.innerText * 1.8 + 32)
-        unit2.innerText = Math.floor(unit2.innerText * 1.8 + 32)
+        unit2.innerText = Math.ceil(unit2.innerText * 1.8 + 32)
         unit3.innerText = Math.floor(unit3.innerText * 1.8 + 32)
         unit4.innerText = Math.floor(unit4.innerText * 1.8 + 32)
         unit5.innerText = Math.floor(unit5.innerText * 1.8 + 32)
-        unit6.innerText = Math.floor(unit6.innerText * 1.8 + 32)
+        unit6.innerText = Math.ceil(unit6.innerText * 1.8 + 32)
         unit7.innerText = Math.floor(unit7.innerText * 1.8 + 32)
-        unit8.innerText = Math.floor(unit8.innerText * 1.8 + 32)
+        unit8.innerText = Math.ceil(unit8.innerText * 1.8 + 32)
     }
     if(element.value === "°C"){
-        unit1.innerText = Math.floor((unit1.innerText - 32) / 1.8)
+        unit1.innerText = Math.ceil((unit1.innerText - 32) / 1.8)
         unit2.innerText = Math.floor((unit2.innerText - 32) / 1.8)
-        unit3.innerText = Math.floor((unit3.innerText - 32) / 1.8)
-        unit4.innerText = Math.floor((unit4.innerText - 32) / 1.8)
-        unit5.innerText = Math.floor((unit5.innerText - 32) / 1.8)
+        unit3.innerText = Math.ceil((unit3.innerText - 32) / 1.8)
+        unit4.innerText = Math.ceil((unit4.innerText - 32) / 1.8)
+        unit5.innerText = Math.ceil((unit5.innerText - 32) / 1.8)
         unit6.innerText = Math.floor((unit6.innerText - 32) / 1.8)
-        unit7.innerText = Math.floor((unit7.innerText - 32) / 1.8)
+        unit7.innerText = Math.ceil((unit7.innerText - 32) / 1.8)
         unit8.innerText = Math.floor((unit8.innerText - 32) / 1.8)
     }
 }
