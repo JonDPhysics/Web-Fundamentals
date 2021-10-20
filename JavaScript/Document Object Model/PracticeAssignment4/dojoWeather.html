@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dojoWeather.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div id="container">
+        <div id="navBar">
+            <h1>DojoWeather</h1>
+            <h3>Burbank</h3>
+            <h3>Chicago</h3>
+            <h3>Dallas</h3>
+        </div>
+        <div id="infoBar">
+            <h2>San Jose</h2>
+            <h5>show temperature in</h5>
+            <select name="units">
+                <option value="celsius">°C</option>
+                <option value="fahrenheit">°F</option>
+            </select>
+        </div>
+        <div id="row">
+            <div class="column">
+                <h3>Today</h3>
+                <img src="img/some_rain.png" alt="Rainy Icon">
+                <h5>some rain</h5>
+                <div class="temp">
+                    <h3 class="red">24°</h3>
+                    <h3 class="blue">18°</h3>
+                </div>
+            </div>
+            <div class="column">
+                <h3 id="T">Tomorrow</h3>
+                <img src="img/some_sun.png" alt="Sunny Icon">
+                <h5 id="sun1">some sun</h5>
+                <div class="temp">
+                    <h3 class="red">27°</h3>
+                    <h3 class="blue">19°</h3>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Friday</h3>
+                <img src="img/some_clouds.png" alt="Cloudy Icon">
+                <h5>some clouds</h5>
+                <div class="temp">
+                    <h3 class="red">21°</h3>
+                    <h3 class="blue">16°</h3>
+                </div>
+            </div>
+            <div id="right" class="column">
+                <h3>Saturday</h3>
+                <img src="img/some_sun.png" alt="Sunny Icon">
+                <h5 id='sun2'>some sun</h5>
+                <div class="temp">
+                    <h3 class="red">26°</h3>
+                    <h3 class="blue">21°</h3>
+                </div>
+            </div>
+        </div>
+        <div id="cookie">
+            <img src="img/cookie.png" alt="Cookie Icon">
+            <div id="wordRow">
+                <h4>Stop! Cookie time</h4>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button>I Accept</button>
+        </div>
+    </div>
+    <script src="dojoWeather.js"></script>
+</body>
+</html>

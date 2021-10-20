@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 900px;
+    margin-left: 300px;
+}
+
+#navBar {
+    width: 720px;
+    height: 30px;
+    padding: 20px 90px;
+    background-color: #9fc5f8;
+    display: flex;
+    align-items: baseline;
+}
+
+#navBar > h1 {
+    color: white;
+    display: inline;
+    margin-right: 160px;
+}
+
+#navBar > h3 {
+    color: white;
+    display: inline;
+    margin-left: 50px;
+}
+
+#infoBar {
+    width: 650px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin: 15px 130px 10px;
+}
+
+#infoBar > h2 {
+    margin-right: 400px;
+}
+
+#infoBar > select {
+    height: 25px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
+#row {
+    width: 676px;
+    height: 250px;
+    margin: 15px 130px 3px;
+    display: flex;
+}
+
+.column {
+    width: 145px;
+    height: 250px;
+    background-color: lightgrey;
+    margin-right: 25px;
+}
+
+#T {
+    margin-left: 30px;
+}
+
+.column > h3 {
+    margin: 20px 40px;
+}
+
+.column > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+#sun1 {
+    margin: 20px 46px;
+}
+
+#sun2 {
+    margin: 20px 46px;
+}
+
+.column > h5 {
+    margin: 20px 35px;
+}
+
+.temp {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+#cookie {
+    width: 629px;
+    height: 70px;
+    padding: 5px 10px; 
+    border: 2px solid black;
+    margin-left: 129px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+#cookie > img {
+    width: 45px;
+    height: 45px;
+    margin-left: 40px;
+}
+
+#wordRow > h4 {
+    margin-left: 34px;
+}
+
+#wordRow > p {
+    margin-left: 34px;
+}
+
+#cookie > button {
+    width: 234px;
+    height: 35px;
+    margin-right: 10px;
+    background-color: #9fc5f8;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-weight: bolderssss;
+}
