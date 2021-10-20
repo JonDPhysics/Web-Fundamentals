@@ -90,12 +90,17 @@
 
 .temp {
     display: flex;
-    justify-content: space-evenly;
     margin: 0px;
+    padding: 0px 30px;
 }
 
 .red {
     color: red;
+}
+
+.dot {
+    color: red;
+    margin-right: 31px;
 }
 
 .blue {

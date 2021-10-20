@@ -11,16 +11,16 @@
     <div id="container">
         <div id="navBar">
             <h1>DojoWeather</h1>
-            <h3>Burbank</h3>
-            <h3>Chicago</h3>
-            <h3>Dallas</h3>
+            <h3 onclick="alert('Loading weather report...')">Burbank</h3>
+            <h3 onclick="alert('Loading weather report...')">Chicago</h3>
+            <h3 onclick="alert('Loading weather report...')">Dallas</h3>
         </div>
         <div id="infoBar">
             <h2>San Jose</h2>
             <h5>show temperature in</h5>
-            <select name="units">
-                <option value="celsius">°C</option>
-                <option value="fahrenheit">°F</option>
+            <select onchange="check(this)">
+                <option>°C</option>
+                <option>°F</option>
             </select>
         </div>
         <div id="row">
@@ -29,8 +29,10 @@
                 <img src="img/some_rain.png" alt="Rainy Icon">
                 <h5>some rain</h5>
                 <div class="temp">
-                    <h3 class="red">24°</h3>
-                    <h3 class="blue">18°</h3>
+                    <h3 class="red" id="unit1">24</h3>
+                    <h3 class="dot">°</h3>
+                    <h3 class="blue" id="unit2">18</h3>
+                    <h3 class="blue">°</h3>
                 </div>
             </div>
             <div class="column">
@@ -38,8 +40,10 @@
                 <img src="img/some_sun.png" alt="Sunny Icon">
                 <h5 id="sun1">some sun</h5>
                 <div class="temp">
-                    <h3 class="red">27°</h3>
-                    <h3 class="blue">19°</h3>
+                    <h3 class="red" id="unit3">27</h3>
+                    <h3 class="dot">°</h3>
+                    <h3 class="blue" id="unit4">19</h3>
+                    <h3 class="blue">°</h3>
                 </div>
             </div>
             <div class="column">
@@ -47,8 +51,10 @@
                 <img src="img/some_clouds.png" alt="Cloudy Icon">
                 <h5>some clouds</h5>
                 <div class="temp">
-                    <h3 class="red">21°</h3>
-                    <h3 class="blue">16°</h3>
+                    <h3 class="red" id="unit5">21</h3>
+                    <h3 class="dot">°</h3>
+                    <h3 class="blue" id="unit6">16</h3>
+                    <h3 class="blue">°</h3>
                 </div>
             </div>
             <div id="right" class="column">
@@ -56,18 +62,20 @@
                 <img src="img/some_sun.png" alt="Sunny Icon">
                 <h5 id='sun2'>some sun</h5>
                 <div class="temp">
-                    <h3 class="red">26°</h3>
-                    <h3 class="blue">21°</h3>
+                    <h3 class="red" id="unit7">26</h3>
+                    <h3 class="dot">°</h3>
+                    <h3 class="blue" id="unit8">21</h3>
+                    <h3 class="blue">°</h3>
                 </div>
             </div>
         </div>
-        <div id="cookie">
-            <img src="img/cookie.png" alt="Cookie Icon">
-            <div id="wordRow">
-                <h4>Stop! Cookie time</h4>
-                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+        <div id="cookie" class="bye">
+            <img class='bye' src="img/cookie.png" alt="Cookie Icon">
+            <div class="bye" id="wordRow">
+                <h4 class='bye'>Stop! Cookie time</h4>
+                <p class="bye">We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
             </div>
-            <button>I Accept</button>
+            <button class="bye" onclick="hide(this)">I Accept</button>
         </div>
     </div>
     <script src="dojoWeather.js"></script>
