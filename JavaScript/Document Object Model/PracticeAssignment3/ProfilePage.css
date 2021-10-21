@@ -1,0 +1,283 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*CONTAINER*/
+#container {
+    width: 1002px;
+    height: 800px;
+}
+/*CONTAINER*/
+
+/*NAVIGATION BAR*/
+.navBar {
+    background-color: black;
+    width: auto;
+    height: 25px;
+    padding: 20px 110px;
+    display: flex;
+    align-items: center;
+}
+
+.navTitle {
+    color: white;
+    display: inline;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.navLinks {
+    list-style-type: none;
+}
+
+.navLinks > li {
+    display: inline;
+}
+
+.active {
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+
+.btn {
+    background-color: lightskyblue;
+    color: white;
+    width: 75px;
+    height: 20px;
+    border: none;
+    position: relative;
+    left: 328px;
+}
+/*NAVIGATION BAR*/
+
+/*COLUMN*/
+.column{
+    width: 1002px;
+    height: 800px;
+    display: flex;
+}
+/*COLUMN*/
+
+/*COLUMN LEFT*/
+.left{
+    flex: 2;
+}
+/*COLUMN LEFT*/
+
+/*USER CARD*/
+.userCard {
+    width: 500px;
+    height: 240px;
+    border: 3px solid grey;
+    margin: 30px 0px 30px 110px;
+    background-color: white;
+}
+
+.bar {
+    height: 60px;
+    background-color:lightskyblue;
+}
+
+.icon > img {
+    height: 70px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+.user {
+    margin: 30px 40px 5px;
+    font-weight: lighter;
+}
+.loca {
+    font-weight: lighter;
+    margin: 0px 10px 10px 40px;
+    display: inline;
+    align-self: baseline;
+}
+.loca > img {
+    height: 15px;
+    margin: 0px 5px;
+    display: inline;
+}
+
+.about {
+    margin: 5px 40px;
+}
+.edit > img {
+    height: 15px;
+    margin: 5px 10px 0px 40px;
+    display: inline;
+}
+
+.edit {
+    font-family: cursive;
+    font-weight: lighter;
+    display: inline;
+    margin: 0px 5px;
+    align-self: baseline;
+    color: blue;
+}
+/*USER CARD*/
+
+/*EDUCATION CARD*/
+.eduCard{
+    width: 500px;
+    height: 150px;
+    background-color: white;
+    border: 3px solid grey;
+    margin-left: 110px;
+}
+
+.edBar{
+    width: auto;
+    height: 20px;
+    background-color: black;
+    padding: 10px 25px;
+}
+
+.edBar > h4{
+    color: white;
+}
+
+.eduCard > h2{
+    margin: 10px 5px 0px 10px; 
+    font-weight: lighter;
+}
+
+.eduCard > h5{
+    margin-left: 15px;
+    color: grey;
+    font-weight: lighter;
+}
+
+.eduCard > h4{
+    margin-left: 15px;
+    font-weight: lighter;
+}
+/*EDUCATION CARD*/
+
+/*COLUMN RIGHT*/
+.right{
+    flex: 1;
+}
+/*COLUMN RIGHT*/
+
+/*REQUEST CARD*/
+.requestCard{
+    width: 200px;
+    height: 120px;
+    background-color: white;
+    border: 3px solid grey;
+    margin: 30px 0px;
+}
+
+.minBar{
+    background-color: black;
+    width: auto;
+    height: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.two{
+    color: black;
+    margin: 0px 5px;
+    border: 2px solid gray;
+    background-color: gray;
+    border-radius: 50px;
+}
+
+.minBar > h4{
+    color: white;
+    margin: 0px 2px;
+}
+
+.nameBar{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nameBar > h3{
+    margin: 5px 25px 5px 0px;
+    display: inline;
+    font-weight: lighter;
+}
+
+.con{
+    margin: 5px;
+}
+.minCon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nameBar  img{
+    height: 20px;
+    margin: 7.5px;
+    display: inline;
+}
+/*REQUEST CARD*/
+
+/*CONNECT CARD*/
+.connectCard{
+    width: 200px;
+    height: 240px;
+    background-color: white;
+    border: 3px solid grey;
+}
+
+.conBar{
+    width: auto;
+    height: 10px;
+    padding: 20px 10px;
+    background-color: black;
+    display: flex;
+}
+
+.five{
+    height: 15px;
+    border: 2px solid grey;
+    background-color: grey;
+    color: black;
+    border-radius: 50px;
+    display: inline;
+}
+
+.conBar > h4{
+    color: white;
+    margin-left: 10px;
+    display: inline;
+}
+
+.connect{
+    height: 25px;
+    display: flex;
+    margin: 10px;
+
+}
+
+.connect>img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.connect>h3{
+    font-weight: lighter;
+}
+
+.bottom{
+    padding: 10px;
+    height: 18px;
+    border: 2px solid grey;
+    display: flex;
+}
+
+.bottom>a{
+    color: blue;
+}
+/*CONNECT CARD*/
+
